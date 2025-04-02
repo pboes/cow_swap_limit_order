@@ -36,8 +36,8 @@ async function createLimitOrder(): Promise<void> {
       sellTokenDecimals: 18,
       buyToken: "0xa34cc6726456a4e7be92b6575f6e0f3d2aa97155",
       buyTokenDecimals: 18,
-      sellAmount: ethers.utils.parseUnits("0.1", 18).toString(),
-      buyAmount: ethers.utils.parseUnits("700", 18).toString(),
+      sellAmount: ethers.utils.parseUnits("3.9", 18).toString(),
+      buyAmount: ethers.utils.parseUnits("5000", 18).toString(),
       owner: SAFE_ADDRESS,
     };
 
